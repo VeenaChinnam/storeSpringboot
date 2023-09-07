@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/api/account
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "test@123"
+
+}
+
+###
+POST http://localhost:8080/api/admin/?adminName=Ram
+
+
+
+###
+PUT http://localhost:8080/api/admin/?admin_id=2&account_id=1
+Content-Type: application/json
+
